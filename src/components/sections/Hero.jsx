@@ -183,7 +183,7 @@ const Hero = () => {
                 className="text-sm sm:text-base lg:text-base text-white/90 leading-relaxed group-hover:text-white transition-colors duration-300 relative z-10"
                 style={{ fontFamily: "var(--font-body), sans-serif" }}
               >
-                CRM | ERP | LMS system platformalarini yaratuvchi , 2 yillik tajribaga ega dasturchiman
+                CRM | ERP | LMS system platformalarini yaratuvchi , 1 yillik tajribaga ega dasturchiman
               </p>
               
               {/* Corner glow accents */}
