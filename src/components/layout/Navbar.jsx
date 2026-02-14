@@ -76,7 +76,7 @@ const Navbar = () => {
   const handleDownloadResume = () => {
     const link = document.createElement('a');
     link.href = '/resume.pdf';
-    link.download = 'Ulugbek_Gofurjonov_Resume.pdf';
+    link.download = 'file:///C:/Users/user/Downloads/Documents/Yusufbek%20Resume%20(AutoRecovered).pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -167,7 +167,7 @@ const Navbar = () => {
                     }`}
                     style={{ fontFamily: "var(--font-heading)" }}
                   >
-                    AX Portfolio
+                    XY Portfolio
                   </h1>
                   
                   {/* Animated Underline */}
