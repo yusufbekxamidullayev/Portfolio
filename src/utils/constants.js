@@ -16,11 +16,11 @@ export const PERSONAL_INFO = {
 export const SOCIAL_LINKS = {
   github: "https://github.com/yusufbekxamidullayev",
   telegram: "https://t.me/yusufbekX2010X",
-  linkedin: "https://www.linkedin.com/in/asilbek-xoliyorov-58127a2aa/",
+  linkedin: "",
 };
 
 export const STATS = [
-  { label: "Tajriba", value: "1 yil" },
+  { label: "Tajriba", value: "2 oy" },
   { label: "Loyihalar", value: "3+" },
   { label: "Texnologiya", value: "10+" },
 ];

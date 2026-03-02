@@ -20,6 +20,17 @@ export const projects = [
         githubUrl: "https://github.com/yusufbekxamidullayev/pizza-project.git"
 
     },
+    {
+        id: 3,
+        title: "Movie",
+        description: "Kino vs Multfilmlar uchun website",
+        image: "./images/movie.jpg",
+        category: "Web Development",
+        technologies: ["Next", "Tailwind CSS", "Redux Toolkit" , "React Query"],
+        demoUrl: "https://movie-psay.vercel.app/",
+        githubUrl: "https://github.com/begzodmominov2009/movie"
+
+    },
     
 ];
-export const categories = ["All", "Web Apps", "UI Components"];
+export const categories = ["All"];
