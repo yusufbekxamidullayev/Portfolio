@@ -103,14 +103,12 @@ const Projects = () => {
           </p>
         </header>
 
-        {/* Filter Buttons */}
         <FilterButtons 
           categories={categories}
           activeCategory={activeCategory}
           onCategoryChange={handleCategoryChange}
         />
 
-        {/* Projects Grid */}
         {currentProjects.length > 0 ? (
           <>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-7 md:gap-8 mb-12 sm:mb-16">
