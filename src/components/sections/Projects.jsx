@@ -99,16 +99,18 @@ const Projects = () => {
           />
           
           <p className="text-slate-400 text-sm sm:text-base md:text-lg max-w-2xl mx-auto px-4">
-            Zamonaviy texnologiyalar va innovatsion yechimlar bilan yaratilgan professional loyihalar
+            Zamonaviy texnologiyalar va inovatsion yechimlar bilan yaratilgan professional loyihalar
           </p>
         </header>
 
+        {/* Filter Buttons */}
         <FilterButtons 
           categories={categories}
           activeCategory={activeCategory}
           onCategoryChange={handleCategoryChange}
         />
 
+        {/* Projects Grid */}
         {currentProjects.length > 0 ? (
           <>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-7 md:gap-8 mb-12 sm:mb-16">
