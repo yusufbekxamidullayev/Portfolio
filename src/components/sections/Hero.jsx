@@ -44,6 +44,7 @@ const Hero = () => {
       className="relative min-h-screen flex items-center justify-center overflow-hidden py-16 sm:py-20"
       id="hero"
     >
+
       <RadialGradientBackground />
 
       {/* Content container */}
