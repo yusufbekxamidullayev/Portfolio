@@ -42,6 +42,17 @@ export const projects = [
         githubUrl: "https://github.com/Imronxonl7/projectTravel.git"
 
     },
+    {
+        id: 5,
+        title: "Rent Car",
+        description: "Rent Car uchun website",
+        image: "./images/cars.jpg",
+        category: "Web Development",
+        technologies: ["Next", "Tailwind CSS", "Redux Toolkit", "React Query"],
+        demoUrl: "https://renting-cars-pi.vercel.app/",
+        githubUrl: "https://github.com/Imronxonl7/renting-cars.git"
+
+    },
     
 ];
 export const categories = ["All"];
